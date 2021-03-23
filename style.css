@@ -1,4 +1,42 @@
-.navbar {
-    background: rgb(51, 121, 153);
+/* Found on: https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
+.navbar-custom {
+    background-color: #1d959e;
 }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(252, 249, 249);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #050005;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #7e0774;
+}
+
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu {
+    background-color: #fdfbfb;
+}
+
+.navbar-custom .dropdown-item {
+    color: #070000;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #191919;
+    background-color: #f9faf9;
+}
+/* ----------------------------------------------------- */
+.navbar-light {
+    color: #7e0774;
+}
+
 
