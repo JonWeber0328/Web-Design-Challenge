@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Bring in our .css stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 
     <!-- Set the name of our title -->
     <title>Landing Page</title>
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             <a class="nav-link dropdown-toggle" href="http://http://127.0.0.1:5500/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
               </a>
 
@@ -38,7 +38,7 @@
               </div>
 
               <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:5500/visualizations/comparisons.html">Comparison</a>
+                <a class="nav-link" href="#">Comparison</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Data</a>
@@ -53,55 +53,42 @@
   <!-- Background of landing page -->
   <div class="jumbotron jumbotron-fluid">
     <div class="row">
-        <div class="col-lg-6 offset-lg-1">
+        <div class="col-lg-10 offset-lg-1">
         
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Summary: Latitude vs. X</h5>
+              <h5 class="card-title">Comparison: Latitude vs. X</h5>
               <hr/>
+              <p class="card-text">Click any plot to get an in-depth analysis.</p>
                 
-                <!-- Image -->
-                <img class="float-left" src="Resources/assets/images/Fig1.png" alt="This is a graph showing City Latitude vs Max Temperature"
-                <a href="#" class="btn btn-primary">The purpose of this project was to analyze how weather changes<br>
-                  as you get closer to the equator. To accomplish this analysis, we<br>
-                  first pulled data from the OpenWeatherMap API to assemble<br>
-                  a dataset on over 500 cities.<br>
-                <br>
-                <br>
-                  After assembling the dataset, we used Matplotlib to plot various<br>
-                  aspects of the weather vs. latitude. Factors we looked at included:<br>
-                  temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations<br>
-                  created as part of the analysis, as well as explanations and descriptions of any trends and correlations<br>
-                  witnessed.</a>
+              <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                    <!-- Image 1 -->  
+                        <img class="thumbnail5" src="../Resources/assets/images/Fig1.png" alt="This is a graph showing City Latitude vs Max Temperature"
+                    </div>
+                    <div class="col-6">
+                    <!-- Image 2-->  
+                        <img class="thumbnail6" src="../Resources/assets/images/Fig2.png" alt="This is a graph showing City Latitude vs Humidity"
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                    <!-- Image 3-->  
+                        <img class="thumbnail7" src="../Resources/assets/images/Fig3.png" alt="This is a graph showing City Latitude vs Cloudiness"
+                    </div>
+                    <div class="col-6">
+                    <!-- Image 4-->  
+                        <img class="thumbnail8" src="../Resources/assets/images/Fig4.png" alt="This is a graph showing City Latitude vs Wind Speed"
+                    </div>    
+                </div>
+              </div>
+              
                 
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Visualizations</h5>
-              <hr/>
-              <!-- Image 1 -->
-              
-                <img class="thumbnail1" src="Resources/assets/images/Fig1.png" alt="This is a graph showing City Latitude vs Max Temperature"
-              
-              <!-- Image 2-->
-              
-                <img class="thumbnail2" src="Resources/assets/images/Fig2.png" alt="This is a graph showing City Latitude vs Humidity"
-              
-              <br>
-              <!-- Image 3-->
-              
-                <img class="thumbnail3" src="Resources/assets/images/Fig3.png" alt="This is a graph showing City Latitude vs Cloudiness"
-              
-              <!-- Image 4-->
-              
-                <img class="thumbnail4" src="Resources/assets/images/Fig4.png" alt="This is a graph showing City Latitude vs Wind Speed"
-              
-            </div>
-          </div>
-        </div>  
+        
     </div>
   </div>  
   

@@ -8,6 +8,8 @@
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgb(252, 249, 249);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 
 /* change the link color */
@@ -44,6 +46,8 @@
 /* change header font size */
 .h5, h5 {
     font-size: 1.75rem;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* change summary image layout */
@@ -83,3 +87,19 @@ hr {
     max-width: 180px;
     max-height: auto;
 }
+/* .thumbnail5 {
+    max-width: auto;
+    max-height: auto;
+}
+.thumbnail6 {
+    max-width: auto;
+    max-height: auto;
+}
+.thumbnail7 {
+    max-width: 600px;
+    max-height: auto;
+}
+.thumbnail8 {
+    max-width: 600px;
+    max-height: auto;
+} */
