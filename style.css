@@ -1,3 +1,4 @@
+/* ----------------------------------------------------- */
 /* Found on: https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
 .navbar-custom {
     background-color: #1d959e;
@@ -35,8 +36,19 @@
     background-color: #f9faf9;
 }
 /* ----------------------------------------------------- */
-.navbar-light {
-    color: #7e0774;
+/* change title color */
+.card-title {
+    color:#1d959e;
 }
 
+/* change summary image layout */
+.btn {
+    border: 0;
+    padding: 0;
+    vertical-align: left;
+}
 
+.float-left {
+    max-width: 279px; 
+    max-height: auto;
+}
