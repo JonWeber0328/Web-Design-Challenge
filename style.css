@@ -130,3 +130,9 @@ hr {
     border-color:#1d959e;
     border-style:solid;
 }
+.thumbnail12 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
