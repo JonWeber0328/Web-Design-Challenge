@@ -98,6 +98,7 @@ hr {
 .thumbnail5 {
     max-width: 700px;
     max-height: auto;
+
 }
 .thumbnail6 {
     max-width: 700px;
@@ -118,6 +119,12 @@ hr {
     border-style:solid;
 }
 .thumbnail10 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
+.thumbnail11 {
     max-width: 180px;
     max-height: auto;
     border-color:#1d959e;
