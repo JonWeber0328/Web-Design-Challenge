@@ -93,19 +93,19 @@ hr {
 }
 /**/
 .thumbnail5 {
-    max-width: 600px;
+    max-width: 500px;
     max-height: auto;
 }
 .thumbnail6 {
-    max-width: 600px;
+    max-width: 500px;
     max-height: auto;
 }
 .thumbnail7 {
-    max-width: 600px;
+    max-width: 500px;
     max-height: auto;
 }
 .thumbnail8 {
-    max-width: 600px;
+    max-width: 500px;
     max-height: auto;
 }
 /**/
@@ -132,6 +132,15 @@ hr {
     max-height: auto;
     border-color:#1d959e;
     border-style:solid;
+}
+h4 {
+    text-align:center;
+    color:#1d959e;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+p {
+    font-size: small;
 }
 @media (max-width: 600px) {
     .navbar-custom {
