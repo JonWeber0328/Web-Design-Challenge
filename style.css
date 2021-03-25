@@ -1,11 +1,7 @@
 /* ----------------------------------------------------- */
 /* Found on: https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
 
-@media (max-width: 600px) {
-    .navbar-custom {
-    background-color: #1d959e;
-    }
-}
+
 
 .navbar-brand{
     background-color:#1d959e;
@@ -95,23 +91,24 @@ hr {
     max-width: 180px;
     max-height: auto;
 }
+/**/
 .thumbnail5 {
-    max-width: 700px;
+    max-width: 600px;
     max-height: auto;
-
 }
 .thumbnail6 {
-    max-width: 700px;
+    max-width: 600px;
     max-height: auto;
 }
 .thumbnail7 {
-    max-width: 700px;
+    max-width: 600px;
     max-height: auto;
 }
 .thumbnail8 {
-    max-width: 700px;
+    max-width: 600px;
     max-height: auto;
 }
+/**/
 .thumbnail9 {
     max-width: 180px;
     max-height: auto;
@@ -135,4 +132,9 @@ hr {
     max-height: auto;
     border-color:#1d959e;
     border-style:solid;
+}
+@media (max-width: 600px) {
+    .navbar-custom {
+    background-color: #1d959e;
+    }
 }
