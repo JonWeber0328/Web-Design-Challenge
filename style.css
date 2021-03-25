@@ -87,19 +87,19 @@ hr {
     max-width: 180px;
     max-height: auto;
 }
-/* .thumbnail5 {
-    max-width: auto;
+.thumbnail5 {
+    max-width: 700px;
     max-height: auto;
 }
 .thumbnail6 {
-    max-width: auto;
+    max-width: 700px;
     max-height: auto;
 }
 .thumbnail7 {
-    max-width: 600px;
+    max-width: 700px;
     max-height: auto;
 }
 .thumbnail8 {
-    max-width: 600px;
+    max-width: 700px;
     max-height: auto;
-} */
+}
