@@ -139,12 +139,14 @@ h4 {
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
 }
-p {
-    font-size: small;
+.table-header {
+    border-bottom-style: solid;
+    border-bottom-color:#1d959e;
 }
 /* found on: https://stackoverflow.com/questions/50807744/apply-css-class-to-pandas-dataframe-using-to-html/50939211 */
 /* includes alternating gray and white with on-hover color */
 .mystyle {
+    border:1;
     font-size: 11pt; 
     font-family: Arial;
     border-collapse: collapse; 
@@ -164,4 +166,5 @@ p {
     .navbar-custom {
     background-color: #1d959e;
     }
+    .card_body
 }
