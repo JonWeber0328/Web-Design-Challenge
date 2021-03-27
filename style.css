@@ -1,8 +1,4 @@
 /* ----------------------------------------------------- */
-/* Found on: https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
-
-
-
 .navbar-brand{
     background-color:#1d959e;
     padding-left: 1rem;
@@ -162,6 +158,10 @@ h4 {
     background: silver;
     cursor: pointer;
 }
+.responsive {
+    width: 100%;
+    height: auto;
+  } 
 @media (max-width: 600px) {
     .navbar-custom {
     background-color: #1d959e;
